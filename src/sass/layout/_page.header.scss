@@ -1,0 +1,64 @@
+// Page: Header
+// -----------------------------------------------------------------------------
+.page__header {
+
+}
+.pt-5 {
+  padding-top: 0 !important;
+}
+
+.main-header {
+  background-image: url("../img/headersBackground.jpg");
+  @extend .bg-position;
+  padding-top: 50px;
+}
+
+.header-wrapper {
+  color: $second-color;
+  font-family: $main-font;
+  font-weight: $main-font-weight;
+  line-height: $second-line-height;
+  font-size: 36px;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.options-wrapper {
+  background-image: url("../img/optionsBackground.jpg");
+  @extend .bg-position;
+  padding: 50px 0;
+}
+
+.bg-position {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-link {
+  color: #FFFFFF !important;
+}
+
+.field__label {
+  display: none;
+}
+
+//for about us view
+.view-inline {
+
+}
+
+//for our services view
+.services-row {
+
+}
+
+//for our photos view
+.photos-row {
+
+}
+
+//for help menu at the bottom of page
+.help-view {
+  display: none !important;
+}
